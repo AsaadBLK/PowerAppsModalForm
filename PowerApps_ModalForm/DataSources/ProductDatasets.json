@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr4f7_productrecords",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr4f7_productrecord",
+    "MaxGetRowsCount": 500,
+    "Name": "ProductDatasets",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr4f7_productdescription": "Product Description",
+      "cr4f7_productid": "Product ID",
+      "cr4f7_productname": "Product Name",
+      "cr4f7_productprice": "Product Price",
+      "cr4f7_productprice_base": "Product Price (Base)",
+      "cr4f7_productrecord_AsyncOperations": "System Jobs",
+      "cr4f7_productrecord_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr4f7_productrecord_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr4f7_productrecord_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr4f7_productrecord_ProcessSession": "Process Sessions",
+      "cr4f7_productrecord_SyncErrors": "Sync Errors",
+      "cr4f7_productrecordid": "Product Record",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "ProductDatasets",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "ProductDatasets (Views)",
+    "Name": "_cr4f7_productrecord_views",
+    "RelatedEntityName": "ProductDatasets",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "05bcbdb0-6a59-4035-b995-d646a197c17e": "Product Record Associated View",
+      "2425ea51-5eba-4321-b156-19ee4e9b221a": "Product Record Lookup View",
+      "32d464a8-9067-43e7-a51a-7a79d46c0a44": "Product Record Advanced Find View",
+      "47358c64-d44a-4ab3-b306-e8942b868fea": "Active Product Record",
+      "d3ce8f70-5fef-4bf5-9175-ae9948424bfc": "Inactive Product Record"
+    }
+  },
+  {
+    "DisplayName": "Status (ProductDatasets)",
+    "Name": "cr4f7_productrecord_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "ProductDatasets"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "ProductDatasets",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (ProductDatasets)",
+    "Name": "cr4f7_productrecord_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "ProductDatasets"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "ProductDatasets",
+    "Type": "OptionSetInfo"
+  }
+]

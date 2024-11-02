@@ -1,0 +1,12 @@
+App As appinfo:
+    BackEnabled: =true
+    Formulas: =dynamicTableWidth=Switch(Screen1.Size,ScreenSize.Small,100,Screen1.Size,ScreenSize.Medium,150,Screen1.Size,ScreenSize.Large,200,250);
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
