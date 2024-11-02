@@ -192,6 +192,8 @@
             ZIndex: =4
 
             Table1 As Table.pcfdataset:
+                AlignInContainer: =AlignInContainer.Stretch
+                BasePaletteColor: =RGBA(141, 229, 250, 1)
                 DateOnlyFormat: ='PowerAppsOneGrid.DateOnlyFormat'.ShortDate
                 DateTimeFormat: ='PowerAppsOneGrid.DateTimeFormat'.ShortDateTime
                 DisplayMode: =DisplayMode.Edit
@@ -219,7 +221,7 @@
                     FieldName: ="cr4f7_productdescription"
                     FieldType: ="s"
                     FieldVariantName: ="textualColumn"
-                    Order: =1
+                    Order: =3
                     Width: =dynamicTableWidth
                     ZIndex: =6
 
@@ -228,7 +230,7 @@
                     FieldName: ="cr4f7_productid"
                     FieldType: ="n"
                     FieldVariantName: ="textualColumn"
-                    Order: =2
+                    Order: =1
                     Width: =dynamicTableWidth
                     ZIndex: =7
 
@@ -237,7 +239,7 @@
                     FieldName: ="cr4f7_productname"
                     FieldType: ="s"
                     FieldVariantName: ="textualColumn"
-                    Order: =3
+                    Order: =2
                     Width: =dynamicTableWidth
                     ZIndex: =8
 
@@ -326,7 +328,7 @@
                 Update: =DataCardValue1.Text
                 Width: =558
                 X: =0
-                Y: =0
+                Y: =1
                 ZIndex: =7
 
                 DataCardKey1 As label:
@@ -396,7 +398,7 @@
                 Update: =DataCardValue3.Text
                 Width: =558
                 X: =0
-                Y: =1
+                Y: =0
                 ZIndex: =7
 
                 DataCardKey3 As label:
